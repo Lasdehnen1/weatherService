@@ -39,6 +39,7 @@ public class Main {
                 logger.error("Ошибка при получении данных о погоде", e);
             }
         }
+        // added comment
         scanner.close();
     }
     private static Properties loadConfig() {
